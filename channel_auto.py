@@ -34,7 +34,7 @@ def split_message(message):
 search_results = []
 
 # 봇의 토큰을 입력해주세요.
-bot = telebot.TeleBot('6067065790:AAHIAULSsgUJBmB3zaZIVB9CEMurMowIJjc')
+bot = telebot.TeleBot('')#token 
 
 @bot.message_handler(commands=['search_alba'])
 def search_alba(message):
